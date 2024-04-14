@@ -1,0 +1,57 @@
+$ git mkdir SI_2024_lab1_223252
+$ git init
+$ git remote add origin "https://github.com/davidoviski/SI_2024_lab1_223252.git"
+$ nano README.md
+$ git add README.md
+$ git commit README.md -m"Initial commit"
+$ git add SILab1_1.java SILab1_2.java SILabMain.java 
+$ git commit SILab1_1.java SILab1_2.java SILabMain.java -m"Add sterter code"
+$ git push -u origin master
+$ git branch bug1
+$ git branch bug2
+$ git checkout bug1
+$ git add SILab1_1.java
+$ git commit SILab1_1.java -m"Fix wrong condition in filterOddLengthStrings"
+$ git checkout bug2
+$ git add SILab1_2.java
+$ git commit SILab1_2.java -m"Fix wrong condition in makeBigStringFrom"
+$ git checkout bug1
+$ git add SILabMain.java
+$ git commit SILabMain.java -m"Call method filterOddLengthStrings in main class"
+$ git checkout bug2
+$ git add SILabMain.java
+$ git commit SILabMain.java -m"Call method makeBigStringFrom in main clas"
+$ git push -u origin bug2
+$ git checkout master
+$ git push -u origin master
+$ git checkout bug1
+$ git push -u origin bug1
+$ git checkout master
+$ git merge bug1 - ne se sluceni konflikti i e koristeno ff spojuvanje
+$ git push -u origin master
+$ git push -u origin bug 1
+$ git push -u origin bug2
+$ git checkout bug2
+$ git rebase master-- ima konflikt vo  Call method makeBigStringFrom in main class koj sto e reazresen vo slednite 2 cekora
+$ git add *
+$ git rebase -- continue
+$ git checkout master
+$ git merge bug2- nema konflikti pri dodavanje spojuvanjeto e rekurzivno
+$ git push origin master
+$ git push origin bug1
+$ git push origin bug2 --force
+$ nano logs.txt
+$ git checkout master
+$ git log
+$ git checkout bug1
+$ git log
+$ git checkout bug2
+$ git log
+$ nano 223252.txt
+$ git add logs.txt 223252.txt
+$ git commit logs.txt 223252.txt -m"Final Commit"
+$ git push origin master
+$ git push origin bug1
+$ git push origin bug2 --force
+
+

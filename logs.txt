@@ -1,0 +1,74 @@
+DAVIDOVSKI@DESKTOP-GNIQBMU MINGW64 ~/SI_2024_lab1_223252 (master)
+$ git log
+commit caa5a8b699fa6a74192f21c787467a5696df95ba (HEAD -> master, origin/master, origin/bug2, bug2)
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 02:09:13 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit d3a63a0b0e5721e7229a2f813a2880810664fdb0
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 02:04:54 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 6ade9d8258ce90b659f03e57aeee02295c52fb2b (origin/bug1, bug1)
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 02:06:51 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit ca88f24d1d81e2c00031ae070b6b884651247e0e
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 01:53:30 2024 +0200
+
+
+DAVIDOVSKI@DESKTOP-GNIQBMU MINGW64 ~/SI_2024_lab1_223252 (bug1)
+$ git log
+commit 6ade9d8258ce90b659f03e57aeee02295c52fb2b (HEAD -> bug1, origin/bug1)
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 02:06:51 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit ca88f24d1d81e2c00031ae070b6b884651247e0e
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 01:53:30 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 42ad03ea9db3a57cc1b5d0ce233fd8e3a37e898b
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sat Apr 13 12:48:12 2024 +0200
+
+    Add starter code
+
+commit a88b50824e5bf9fbfed4e6ccca1176193e14613d
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sat Apr 13 12:42:11 2024 +0200
+
+    Initial commit
+
+DAVIDOVSKI@DESKTOP-GNIQBMU MINGW64 ~/SI_2024_lab1_223252 (bug2)
+$ git log
+commit caa5a8b699fa6a74192f21c787467a5696df95ba (HEAD -> bug2, origin/master, origin/bug2, master)
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 02:09:13 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit d3a63a0b0e5721e7229a2f813a2880810664fdb0
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 02:04:54 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom
+
+commit 6ade9d8258ce90b659f03e57aeee02295c52fb2b (origin/bug1, bug1)
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 02:06:51 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit ca88f24d1d81e2c00031ae070b6b884651247e0e
+Author: davidovsiki <hdavidovski@gmail.com>
+Date:   Sun Apr 14 01:53:30 2024 +0200
